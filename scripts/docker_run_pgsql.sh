@@ -1,0 +1,1 @@
+docker run -d --name my_postgres -v my_dbdata:/var/lib/postgresql/data -p 5432:5432 postgres:latest
